@@ -33,6 +33,17 @@ function solve() {
    }
    checkoutButtonElement.addEventListener('click', (e) => {
 
+      // checkoutButtonElement.addEventListener('click', (e) => {
+
+      //    let uniqueList = list.reduce((a, x) => {
+      //       if (!a.includes(x)) {
+      //          a.push(x);
+      //          return a;
+      //       }
+   
+      //    }, []);
+      
+      
 
       textArea.value += `You bought ${list.join(', ')} for ${uniqueSum.toFixed(2)}.`;
 
